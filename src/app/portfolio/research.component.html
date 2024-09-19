@@ -1,0 +1,33 @@
+<section class="section pointer" id=research>
+    <div class=container>
+        <div class="row justify-content-center txt-bg txt-bg-research">
+            <div class=col-lg-6>
+                <div class="wow fadeIn section-title text-center mb-4 pb-2">
+                    <div class="mb-6 pb-3"> <i class="far fa-clone h1 text-muted"></i></div>
+                    <h2 class="h3 font-weight-bold">Research</h2>                 
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <p class="text-normal mx-auto mb-0 para-desc"><br>My research interest comes from my background in compsci, data-science, international relations, and cyber-security - I like to take the technologies we love, break them apart, and put them back together again. Currently, my research targets the risks of emerging technologies like Generative AI chatbots and how they could be used to spread misinformation and cause radicalisation - as well as methods to counter the rise of these social bots in social media.<br><br><b>I am open to collaborations and Master's student cosupervision:</b><br>Including for research themes such as: Explainable AI, Open Source Intelligence (OSINT), analysis of the policy and politics of cyber-technologies, and digital chatbot applications.<br>Thus, feel free to reach out if you work in areas of social computing, chatbots, or Social Media Intelligence (SOCMINT).<br><br>If you have ever seen the series Steins;Gate (particularly Steins;Gate 0), then my closest research inspiration is Okabe Rintarou 😄<br><br><h3>Recent Publications:</h3></p>
+        </div>
+        <div class="row container-grid mt-4 pt-2">
+            <div *ngFor="let project of researchData" class="wow {{project['animationClass']}} col-lg-4 spacing"
+                [attr.data-wow-delay]="[project['delay']]"><ng-template #title><strong> <em>Click To Checkout The Paper.</em> </strong></ng-template><a class="item-box m-2"
+                    [placement]="[project['placement']]" [ngbTooltip]="title" rel="noreferrer"
+                    aria-label="project(opens in a new tab)"
+                    href="{{project['link']}}" target="_blank"><img
+                        class="item-container img-fluid mx-auto"
+                        src="assets/images/portfolio/{{project['project']}}.webp"
+                        alt="{{project['project'].replaceAll('_',' ')}}"
+                        title="{{project['project'].replaceAll('_',' ')}}" width="698" height="543" loading="lazy">
+                    <div class=item-mask>
+                        <div class="item-caption text-white text-center">
+                            <h3 class="h5">{{project['title']}}</h3>
+                            <p class=text-uppercase>{{project['description']}}</p>
+                        </div>
+                    </div>
+                </a></div>
+        </div>
+    </div>
+</section>
