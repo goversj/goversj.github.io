@@ -22,13 +22,17 @@
                 <div class="tab-pane fade" [ngClass]="{'active show': activeTab === 'story'}" id="story"
                     aria-labelledby="story-tab">
                     <div class="text-center">
+                        <!--
                         <div class="about-img mt-5 mb-5"><img src="assets/images/{{aboutData['image']}}.webp"
                                 alt="{{aboutData['name']}}" title="{{aboutData['name']}}"
                                 class="img-fluid mx-auto rounded-circle site-owner" height="400" width="400"
                                 loading="lazy"></div>
+                        -->
+                        <!--
                         <h3 class="mb-3 wow fadeIn">{{aboutData['name']}} <small class="text-muted"> -
                                 {{aboutData['about']['tech-stats']}} </small></h3>
-                        <p class="text-normal wow slideInUp" [innerHTML]="aboutData['about']['bio']"></p>
+                        -->
+                        <p class="text-normal wow slideInUp margin-top-small" [innerHTML]="aboutData['about']['bio']"></p>
 
                         <p class="text-muted wow fadeInDownBig"><strong>IDE, Editors & Tools Used</strong> :
                             {{aboutData['about']['IDE, Editors & Tools'].join(', ')}}</p>
