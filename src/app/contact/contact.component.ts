@@ -12,13 +12,16 @@ declare var particlesJS : any;
 
 export class ContactComponent implements OnInit {
 	public contactData = data['Contact'];
+	public particlesEnabled = false; // Toggle for particles effect (default: off)
 
 	constructor(private changeDetectorRef: ChangeDetectorRef) {
 		changeDetectorRef.detach();
 	}
 
 	ngOnInit(): void {
-		particlesJS.load('particles-js2');
+		if (this.particlesEnabled) {
+			particlesJS.load('particles-js2');
+		}
 		this.changeDetectorRef.detectChanges();
 	}
 }

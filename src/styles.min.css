@@ -215,10 +215,10 @@ h6 {
     font-weight: 400;
     color: #fff;
     text-align: center;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
     background-color: transparent;
     border: 1px solid transparent;
     padding: .375rem .75rem;
@@ -585,14 +585,15 @@ h6 {
 
 .section-title::before {
     position: absolute;
-    top: 51px;
+    top: 60px;
     left: 0;
     right: 0;
     content: "";
     background: #16C60C;
-    height: 39px;
+    height: 0px;
     width: 2px;
-    margin: 0 auto
+    margin: 0 auto;
+    display: none
 }
 
 .txt-bg::before {

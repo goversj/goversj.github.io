@@ -1,6 +1,57 @@
 .contact-wrapper {
     color: #cacaca;
-    background: #242a35
+    background: #242a35;
+    max-height: 33.33vh;
+    min-height: 33.33vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 5px 0
+}
+
+.contact-wrapper .container {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important
+}
+
+.contact-wrapper .section-title {
+    margin-bottom: 0.5rem !important;
+    padding-bottom: 0 !important;
+    margin-top: 50px !important
+}
+
+.contact-wrapper .section-title .mb-5 {
+    margin-bottom: 0.25rem !important;
+    padding-bottom: 0 !important;
+    margin-top: -60px !important
+}
+
+.contact-wrapper .section-title h2 {
+    margin-bottom: 0.25rem !important;
+    font-size: 1.5rem !important;
+    margin-top: 20px !important
+}
+
+.contact-wrapper .section-title p {
+    margin-top: 0.25rem !important;
+    margin-bottom: 0.5rem !important
+}
+
+.contact-wrapper .col-lg-3 {
+    margin-top: 0.5rem !important;
+    padding-top: 0 !important
+}
+
+.contact-wrapper i {
+    margin-bottom: 0.25rem !important
+}
+
+.contact-wrapper .fas.fa-headset {
+    font-size: 1.5rem !important
+}
+
+.contact-wrapper h3 {
+    font-size: 0.9rem !important
 }
 
 .txt-bg-contact::before {

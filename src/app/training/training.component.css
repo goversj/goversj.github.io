@@ -336,7 +336,8 @@
     border-color: #16C60C;
     border-style: solid;
     border-width: thin;
-    background-color: #fff
+    background-color: #fff;
+    padding: 2rem 1.5rem !important
 }
 
 .training-back-flip {

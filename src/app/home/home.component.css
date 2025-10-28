@@ -30,7 +30,7 @@
 
 .home-title .para-desc {
     font-size: 18px;
-    max-width: 650px;
+    max-width: 950px;
     line-height: 1.8;
     font-weight: normal;
 }
@@ -136,22 +136,23 @@
     justify-content: center;
     flex-wrap: nowrap; /* Allows wrapping on smaller screens */
     margin-top: 20px; /* Adjust as needed */
+    margin-left: 200px; /* Shift content slightly to the right */
 }
 
 /* Styles for the images */
 .side-image {
-    width: 150px; /* Adjust as needed */
+    width: 275px; /* Adjust as needed */
     height: auto;
     opacity: 1; /* Ensure images are fully opaque */
     border-radius: 20px;
 }
 
 .left-image {
-    margin-right: 50px; /* Space between the left image and text */
+    margin-right: 40px; /* Space between the left image and text */
 }
 
 .right-image {
-    margin-left: 50px; /* Space between the right image and text */
+    margin-left: 40px; /* Space between the right image and text */
 }
 
 /* Styles for the introduction text */
@@ -171,5 +172,8 @@
     .introduction-container h3 {
         font-size: 28px; /* Adjust font size for smaller screens */
         margin: 10px 0; /* Add margin for spacing when text wraps */
+    }
+    .introduction-container {
+        margin-left: 0; /* Remove left margin on smaller screens */
     }
 }

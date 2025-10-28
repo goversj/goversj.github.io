@@ -13,12 +13,15 @@ declare var data : any;
 
 export class HomeComponent implements OnInit,AfterViewInit {
 	public homeData = data['Home'];
+	public particlesEnabled = false; // Toggle for particles effect (default: off)
 
 	constructor(private changeDetectorRef: ChangeDetectorRef) {
 		changeDetectorRef.detach();
 	}
 	ngOnInit(): void {
-		particlesJS.load('particles-js');
+		if (this.particlesEnabled) {
+			particlesJS.load('particles-js');
+		}
 		this.changeDetectorRef.detectChanges();
 	}
 	ngAfterViewInit() {
