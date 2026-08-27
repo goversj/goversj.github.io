@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1777285209552,
+  "timestamp": 1787816269811,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,14 +11,14 @@
         "ignoreVary": true
       },
       "urls": [
-        "/123.d289a7ec3bafe548.js",
+        "/123.497115b4f96f705c.js",
         "/705.3ab5a91227ef70cc.js",
         "/favicon.ico",
         "/index.html",
         "/main.1a2c21b33c32ab06.js",
         "/polyfills.8e92be9eb7fcaf9b.js",
-        "/runtime.216472e606c8dcb6.js",
-        "/scripts.e51ab653fbbf9771.js",
+        "/runtime.d1cbf0ee1fc5dbce.js",
+        "/scripts.5033b664321fa39d.js",
         "/styles.375b33f9482ee6ce.css"
       ],
       "patterns": []
@@ -88,6 +88,7 @@
         "/assets/images/portfolio/down_the_rabbit_hole_slr.webp",
         "/assets/images/portfolio/dtr_study_paper_cover.jpg",
         "/assets/images/portfolio/dtr_study_paper_cover.webp",
+        "/assets/images/portfolio/facct_nokia_paper.webp",
         "/assets/images/portfolio/feeds_of_distrust_paper_cover.webp",
         "/assets/images/portfolio/prompt_gan_paper_cover.jpg",
         "/assets/images/portfolio/prompt_gan_paper_cover.webp",
@@ -123,14 +124,14 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/123.d289a7ec3bafe548.js": "4e167a3a3237511e9b10b425a8f3a0eade33946f",
+    "/123.497115b4f96f705c.js": "7386afb39071c92b9c5c393248b51868c56e58ee",
     "/404.90137f16bba41eb6.webp": "5ee0de16655bf0624c601deeab4405b71f36e37d",
     "/705.3ab5a91227ef70cc.js": "95ab7457316d9d0112ecddceccf55c2357645bfb",
     "/about-bg.3400930fe3d08353.svg": "0f79f305d5e90fa39091c1df0d9deaaee9b70923",
     "/assets/CV/Jarod_Govers_CV.pdf": "13d2abc40ecff9756a4500f05fa1500379966365",
     "/assets/css/animate.min.css": "4ce4e9a3c083a51cc474b62f755108b9c81e5881",
     "/assets/css/font-awesome.min.css": "64be9b2542e0044359dada7d98ba60c4e6f89713",
-    "/assets/data.min.js": "878bc410cf9013ffeeed31501d29e2acb912bb51",
+    "/assets/data.min.js": "4e6330cd6ba7393f55baf071a94d16057cf33b4f",
     "/assets/fonts/BlackOpsOne.eot": "a922adecfeba3ea43f4e644183728cdd1692dbb4",
     "/assets/fonts/BlackOpsOne.svg": "7c13e5df4822e44cfe78f1291757ef7fc4af6d8a",
     "/assets/fonts/BlackOpsOne.ttf": "024e07e45eefb57d4e55fffc082711c2d653e941",
@@ -182,6 +183,7 @@
     "/assets/images/portfolio/down_the_rabbit_hole_slr.webp": "65f5901e1106f10f0fb9ef264dee13591cb98502",
     "/assets/images/portfolio/dtr_study_paper_cover.jpg": "fa79e1bcc59e8d7a8dc4cfab6605af0bc7a38322",
     "/assets/images/portfolio/dtr_study_paper_cover.webp": "3aede42a99704098baba7ad04a7c14dccd05e6d9",
+    "/assets/images/portfolio/facct_nokia_paper.webp": "6fc804f4574199d0892da96b73cf2c9b73465456",
     "/assets/images/portfolio/feeds_of_distrust_paper_cover.webp": "0a5d73d500b5d0513f2705ab32b156baa9fdb87b",
     "/assets/images/portfolio/prompt_gan_paper_cover.jpg": "beb40410e6d40fa23d5a9eb4d6f79d26d44188ac",
     "/assets/images/portfolio/prompt_gan_paper_cover.webp": "f4c2adc0a79ebb379f268e6500766e334e409bfa",
@@ -211,12 +213,12 @@
     "/favicon-16x16.png": "c909b74cdef596225d18b6a9ffbf4acdae5c0270",
     "/favicon-32x32.png": "bfd18da2a1eb433d9236920876cd613ec37d4fc0",
     "/favicon.ico": "5cefd9f44d20102bdf6197f0feb95d331c22ac44",
-    "/index.html": "314342538473ed746727499c245b0c240a9a1e69",
+    "/index.html": "d33d5c60ebdc5d4abb871482cb2dcaaa8e79d5a5",
     "/main.1a2c21b33c32ab06.js": "8bb6636f6cb961a8f8fd8d7a7aeb83d46de93853",
     "/melb_background.cda7e05016a1f6d3.jpg": "48608bc7ddb96af3d16bfe9a11f2b33259e094e1",
     "/polyfills.8e92be9eb7fcaf9b.js": "ffd643c435e75b8e17812754da0dfdee7b90ff5d",
-    "/runtime.216472e606c8dcb6.js": "ddd4adaa761276d0b010568496c08065c2177535",
-    "/scripts.e51ab653fbbf9771.js": "b9b1acf953de108a455fe3825aac373ce273ff67",
+    "/runtime.d1cbf0ee1fc5dbce.js": "757d03242e0986269d97cedb84b8db0fbfc25c0a",
+    "/scripts.5033b664321fa39d.js": "86208846f130904e815cb56dfe278a239f8b21a7",
     "/styles.375b33f9482ee6ce.css": "c15391b8519d51cec5a3462996c96e49c6da61c3"
   },
   "navigationUrls": [
